@@ -1,0 +1,47 @@
+#intro {
+text-align: center;
+margin-left: 82px;
+margin-right:82px;
+margin-top: 100px;
+color:white;
+background-color: red;
+position: relative;
+height: 150px;
+}
+
+.bold{
+    font-weight: bold;
+}
+.center{
+    text-align: center; 
+}
+.pic{
+    width: 400px;
+    height: 250px;
+}
+
+.container{
+    margin-top: 20px;
+}
+.divider{
+    margin-left: 82px;
+    margin-right:82px;
+    color:red;
+    height:2px;
+    border-width:0;
+    background-color:red;
+    margin-bottom: 50px;
+}
+.header{
+}
+.myp{
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: blueviolet;
+    color: red;
+}
+.label{
+    font-weight: bold;
+    color:white;
+    margin: 10px;
+}
