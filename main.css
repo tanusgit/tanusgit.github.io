@@ -1,14 +1,14 @@
-#intro {
+.intro {
 text-align: center;
-margin-left: 82px;
-margin-right:82px;
-margin-top: 100px;
-color:white;
-background-color: red;
-position: relative;
-height: 150px;
-}
+margin-left: 0;
+margin-right:0;
+margin-top: 0px;
+height: 100%;
 
+}
+.name{
+    text-align: center;
+}
 .bold{
     font-weight: bold;
 }
@@ -26,11 +26,15 @@ height: 150px;
 .divider{
     margin-left: 82px;
     margin-right:82px;
-    color:red;
+    color:black;
     height:2px;
     border-width:0;
-    background-color:red;
+    background-color: black;
     margin-bottom: 50px;
+}
+.profile{
+    width: 250px;
+    height: 200px;
 }
 .header{
 }
@@ -38,10 +42,39 @@ height: 150px;
     margin-top: 40px;
     text-align: center;
     text-decoration: blueviolet;
-    color: red;
+    color: black;
 }
 .label{
     font-weight: bold;
-    color:white;
+    color: black;
     margin: 10px;
+}
+
+
+.warning {
+    margin-top: 50px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.warning img {
+    width: 75%;
+}
+
+.warning p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.intro{
+    background-color: red;
+    color:aliceblue;
+}
+
+
+.center{
+    margin-top: 140px;
 }
